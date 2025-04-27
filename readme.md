@@ -56,7 +56,7 @@ Each player needs to run the client to connect to the server and play the game.
 *   **Arguments:**
     *   `host`: The IP address or hostname of the computer running the server.
         *   If the server is on the *same* computer, use `localhost` or `127.0.0.1`.
-        *   If the server is on *another computer on your local network*, use its local IP address (e.g., `192.168.0.132` as seen in your `config.txt`).
+        *   If the server is on *another computer on your local network*, use its local IP address (e.g., `123.123.0.123` as seen in your `config.txt`).
         *   If the server is on *another computer over the internet*, use the server's public IP address (the host player needs to find this, e.g., by searching "what is my ip" online).
     *   `port`: The port the server is running on. This *must match* the port used by the server. Must be an integer.
 *   **Examples:**
@@ -66,7 +66,7 @@ Each player needs to run the client to connect to the server and play the game.
         ```
     *   Connect to a server running on another computer (e.g., `192.168.0.132`) on port 12345:
         ```bash
-        python game.py client 192.168.0.132 12345
+        python game.py client 123.123.0.123 12345
         ```
     *   Connect to a server running on a public IP address on port 50000:
         ```bash
