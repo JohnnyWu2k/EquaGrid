@@ -11,14 +11,13 @@ A networked game where players take turns placing characters on a grid to form v
 
 Before running the game for the first time, you need to install the required Python library.
 
-1.  **Open Command Prompt or Terminal:** Navigate to the directory where you saved the game files (`game.py`, `gui.py`, `logic.py`, `network.py`, `constants.py`, `requirements.txt`).
-2.  **Run Setup Script:** Execute the `setup.bat` file by typing the following command and pressing Enter:
+1.  **Run Setup Script:** Execute the `setup.bat` file by typing the following command and pressing Enter:
 
     ```bash
     setup.bat
     ```
     *   **What `setup.bat` does:** This batch file automatically runs the command `pip install -r requirements.txt`. It reads the `requirements.txt` file (which lists `sympy`) and installs that library using `pip`. You need an internet connection for this step.
-
+2.  **Enter the basic variables in config.txt**
 ## How to Play
 
 The game requires one player to run the **Server** and both players (including the server host, if they are playing) to run a **Client**.
